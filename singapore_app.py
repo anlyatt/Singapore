@@ -10,6 +10,12 @@ pip install pymongo
 # In[ ]:
 
 
+pip install bson
+
+
+# In[ ]:
+
+
 import dash
 from dash import html, dcc
 import pymongo

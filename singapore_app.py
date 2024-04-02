@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
+
+
+pip install pymongo
+
+
 # In[ ]:
 
 
@@ -9,6 +15,7 @@ from dash import html, dcc
 import pymongo
 import pandas as pd
 import plotly.graph_objs as go
+from bson import ObjectId
 
 # Connect to MongoDB
 client = pymongo.MongoClient("mongodb+srv://alattridge:2tE3MJaiuggQct6L@cluster0.ifouccc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")

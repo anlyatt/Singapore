@@ -3,4 +3,4 @@ pandas
 gunicorn
 pymongo[srv]
 plotly
-flask
+flask==2.0.0
